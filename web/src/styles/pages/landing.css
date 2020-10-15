@@ -74,6 +74,14 @@
   transition: background-color .2s;
 }
 
+.content-wrapper .enter-app svg {
+  color: rgba(0, 0, 0, 0.4);
+}
+
 .content-wrapper .enter-app:hover {
   background-color: #96FEFF;
+}
+
+.content-wrapper .enter-app:hover svg {
+  color: #15C3D6;
 }
